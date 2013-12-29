@@ -1,0 +1,59 @@
+body {
+	background-color: white;
+	text-align: center;
+	font-family: 'Fondamento', serif;
+}
+
+.outer {
+	background:url("parchment.jpg") no-repeat;
+	background-size: contain;
+	border:1px solid white;
+	width:600px;
+	height:800px;
+	text-align: center;
+	margin: auto;
+	margin-top: 20px;
+	position:relative;
+}
+
+h1 {
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 70px;
+}
+
+p{
+	padding-top:10px;
+}
+
+.items {
+
+	text-align: left;
+	line-height: 40px;
+	padding:20px;
+	margin-left: 90px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+span:hover {
+	color: grey;
+	cursor: pointer;
+
+}
+
+.checked {
+	text-decoration: line-through;
+}
+
+.bottomButtons {
+	position:absolute;
+	bottom:40px;
+	margin-left: 110px;
+	width:400px;
+}
+
+.deleteButton {
+	display: inline-block;
+	padding: 20px;
+}

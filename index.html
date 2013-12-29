@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Ye Olde Shopping List</title>
+	<link href='http://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script type="text/javascript" src="application.js"></script>
+</head>
+
+
+<body>
+	<div class="outer">
+		<h1>Ye Olde Shopping List</h1>	
+		<form class="inputform">
+			Add an item: <input type="text" name="addItem" id="newItem" value="">
+		</form>
+		<p>Click on an item to cross it off.</p>
+		<div class="items">
+			<ul>
+				<li><span>Pig liver</span></li>
+				<li><span>Corn husks</span></li>
+				<li><span>Mush</span></li>
+			</ul>
+		</div>
+		<div class="bottomButtons">
+			<form class="deleteButton">
+				<input type="submit" name="submit" value="delete crossed-off items" id="deleteCrossed">
+			</form>
+			<form class="deleteButton">
+				<input type="submit" name="submit" value="clear everything" id="deleteAll">
+			</form>
+		</div>
+
+
+
+
+
+
+	</div>
+</body>
+
+</html>
